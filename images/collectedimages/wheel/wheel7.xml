@@ -1,0 +1,26 @@
+<annotation>
+	<folder>wheel</folder>
+	<filename>wheel7.jpeg</filename>
+	<path>F:\surgeryyy\TFODCourse\Tensorflow\workspace\images\collectedimages\wheel\wheel7.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wheel</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>185</xmin>
+			<ymin>1</ymin>
+			<xmax>1388</xmax>
+			<ymax>1151</ymax>
+		</bndbox>
+	</object>
+</annotation>
