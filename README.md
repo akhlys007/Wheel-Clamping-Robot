@@ -30,4 +30,26 @@ The 2 front wheels are driven by motors relying on the differential method of st
 ### How Distance Is Calculated 
 Through the use of reflectance sensors that measure the number of wheel revolutions.
 
-
+## Electrical and electronic components
+### Motors
+Servo motors have many reasons for being used in a robotic arm, with the main reason being that the servo motor’s position, velocity and torque can be controlled as required which is necessary when building a robotic arm.
+For this reason the design included the use of 10 servo motors in the robotic arms. 
+Amongst those considered for the design was Hasyond 4.8V but we settled on the OEM small 42mm 450 rpm 30kgcm torque motors. These are suitable for the required speed of 450rpm.
+The clamp also incorporates a servo motor for gripping.  
+### Sensors
+#### Sensors for obstacle detection: 
+Infrared sensors positioned at the front section of the robot are used. There is no need for sensors at the back as the robot does not go in reverse. The IR sensor has an emitter and a photo transmitter that can detect up to distances of 80cm with the aid of a potentiometer. 
+#### Sensors for distance calculation
+Reflectance sensors were used to calculate the distance traveled through the number of wheel revolutions detected. 
+#### Stepper motors
+Stepper motors are included in the design to assist the robotic arms in motion greater than 1800. 
+A total of 6 stepper motors were incorporated.
+## Software implementation
+Various software was used to aid in the design process. Most of the programming was done in python for the electrical components on Proteus. 
+For the mechanical parts, Inventor was utilized to design draw and assemble the robot. 
+The stress analysis was also done on Inventor. 
+AI is included in the software to be developed for identifying illegally parked cars and also identifying and recognising the wheels that the robot is supposed to clamp.
+### Computer vision
+In order to identify illegally parked cars and their wheels so as they can be clamped, we used the SSD Mobilenet V2 FPNLite 320 by 320 pretrained model from the tensorflow model zoo because it is fast and not very resource heavy and so will be perfect for being deployed on a raspberry pi.
+A video demonstration of the wheel detection is shown below
+[![wheel](https://user-images.githubusercontent.com/68475422/150664716-e73301e9-b6bc-4a85-af37-4dc06b7f7d0d.png)}](https://youtu.be/acI0bwJJv3Q)
