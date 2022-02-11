@@ -52,4 +52,4 @@ AI is included in the software to be developed for identifying illegally parked 
 ### Computer vision
 In order to identify illegally parked cars and their wheels so as they can be clamped, we used the SSD Mobilenet V2 FPNLite 320 by 320 pretrained model from the tensorflow model zoo because it is fast and not very resource heavy and so will be perfect for being deployed on a raspberry pi.
 A video demonstration of the wheel detection is shown below
-[![wheel](https://user-images.githubusercontent.com/68475422/150664716-e73301e9-b6bc-4a85-af37-4dc06b7f7d0d.png)}](https://youtu.be/acI0bwJJv3Q)
+[![wheel](https://user-images.githubusercontent.com/68475422/150664716-e73301e9-b6bc-4a85-af37-4dc06b7f7d0d.png)}](https://youtu.be/PrjFQIVXV1U)
